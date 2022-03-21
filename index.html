@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Purple Blog</title>
+    <link href="./index.css" rel="stylesheet" />
+    <link href="./navbar.css" rel="stylesheet" />
+    <link href="./header.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Purple Blog</h1>
+    <header class="header">
+      <h1>Purple Blog</h1>
+      <img
+        class="header__background-image"
+        src="./assets/writing-2560x100-condensed.png"
+      />
+    </header>
+    <div class="nav-and-main">
+      <nav class="navbar">
+        <ul class="navbar__list-container">
+          <li class="navbar__list-item"><a href="/about.html">about</a></li>
+          <li>
+            <a href="/about.html" class="navbar__list-item">my writing</a>
+          </li>
+          <li><a href="/about.html"></a></li>
+          <li><a href="/about.html">about</a></li>
+          <li><a href="/index.html">home</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div id="articles-container"></div>
+        <h2>looool</h2>
+        <script src="index.js" type="module"></script>
+      </main>
+    </div>
   </body>
 </html>

@@ -1,0 +1,50 @@
+:root {
+  --color-purple: hsl(270, 50%, 40%);
+  --color-lightpurple: hsl(270, 41.4%, 56.5%);
+  --color-tertiary: hsl(270, 41.4%, 90.5%);
+  --color-bg2: hsl(270, 50%, 95%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+}
+
+.nav-and-main {
+  display: flex;
+}
+
+.article__title {
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* -------- Article section start -------- */
+.article {
+  margin-bottom: 1rem;
+  /* border: 1px solid red; */
+  background-color: var(--color-bg2);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.article__place-and-date {
+  font-weight: 700;
+}
+
+.article__description {
+  color: grey;
+}
+/* -------- Article section end -------- */
