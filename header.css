@@ -23,17 +23,23 @@
 }
 
 .header__title {
-  /* border: 1px solid red; */
-  /* background-color: white; */
-  /* background: radial-gradient(red, rgba(0, 0, 0, 0) 70%); */
-  /* border-radius: 500px; */
-  /* padding: 0 10rem; */
   width: fit-content;
   font-weight: 700;
-  font-size: 5rem;
-  /* font-family: 'Lalezar', cursive; */
+  font-size: 2rem;
 
   font-family: 'Red Rose', cursive;
   text-shadow: -2px 2px 2px var(--color-purple), -2px 2px 20px var(--color-bg2),
     -2px 2px 20px var(--color-bg2);
+}
+
+@media only screen and (min-width: 600px) {
+  .header__title {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .header__title {
+    font-size: 5rem;
+  }
 }
